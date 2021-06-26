@@ -93,4 +93,3 @@ elif X == "29":
     tool = os.system("apt-get install tor torbrowser-launcher")
 elif X == "0":
     tool = os.system("exit")
-    time.sleep(1)
