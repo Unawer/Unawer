@@ -4,7 +4,7 @@ import os, time
 if os.getuid() != 0:
 	print("Este script requiere de privilegios de root (sudo)")	
 	sys.exit()
-os.system("cimport sys
+os.system("import sys")
 import os, time
 
 if os.getuid() != 0:
