@@ -16,8 +16,6 @@ os.system("clear")
 def banner():
 	print("""
 opy & paste this ascii graphic and use it e.g. as mail signature	
-
-Font: epic   Reflection: no   Adjustment: left   Stretch: no      Width: 80	 Text: Unawer
           _        _______           _______  _______ 
 |\     /|( (    /|(  ___  )|\     /|(  ____ \(  ____ )
 | )   ( ||  \  ( || (   ) || )   ( || (    \/| (    )|
@@ -26,7 +24,7 @@ Font: epic   Reflection: no   Adjustment: left   Stretch: no      Width: 80	 Tex
 | |   | || | \   || (   ) || || || || (      | (\ (   
 | (___) || )  \  || )   ( || () () || (____/\| ) \ \__
 (_______)|/    )_)|/     \|(_______)(_______/|/   \__/
-Noob hacking indetectable""")
+Noob hacking for iSH""")
 banner()
 
 
@@ -45,70 +43,70 @@ def menu():
 """)
 menu()
 
-X = input("\033[1;44;37mElige una herramienta:\033[0;m \033[1;36m\n\n>\033[0;m ")
+X = input("\255[1;44;37mElige una herramienta:\033[0;m \033[1;36m\n\n>\033[0;m ")
 
 if X == "1":
-    tool = os.system("apt-get install nmap")
+    tool = os.system("apk add nmap")
 elif X == "2":
-    tool = os.system("apt-get install nikto -y")
+    tool = os.system("apk add nikto -y")
 elif X == "3":
-    tool = os.system("apt-get install john")
+    tool = os.system("apk add john")
 elif X == "4":
-    tool = os.system("apt-get install wifite")
+    tool = os.system("apk add wifite")
 elif X == "5":
-    tool = os.system("apt-get install metasploit-framework")
+    tool = os.system("apk add metasploit-framework")
 elif X == "6":
-    tool = os.system("apt-get install sqlmap")
+    tool = os.system("apk add sqlmap")
 elif X == "7":
-    tool = os.system("apt-get install aircrack-ng")
+    tool = os.system("apk add aircrack-ng")
 elif X == "8":
-    tool = os.system("apt-get install hashcat")
+    tool = os.system("apk add hashcat")
 elif X == "9":
-    tool = os.system("apt-get install legion -y")
+    tool = os.system("apk add legion -y")
 elif X == "10":
-    tool = os.system("apt-get install wpscan")
+    tool = os.system("apk add wpscan")
 elif X == "11":
-    tool = os.system("apt-get install wireshark")
+    tool = os.system("apk add wireshark")
 elif X == "12":
-    tool = os.system("apt-get install crunch -y")
+    tool = os.system("apk add crunch -y")
 elif X == "13":
-    tool = os.system("apt-get install cewl")
+    tool = os.system("apk add cewl")
 elif X == "14":
-    tool = os.system("apt-get install medusa")
+    tool = os.system("apk add medusa")
 elif X == "15":
-    tool = os.system("apt-get install reaver")
+    tool = os.system("apk add reaver")
 elif X == "16":
-    tool = os.system("apt-get install ncrack")
+    tool = os.system("apk add ncrack")
 elif X == "17":
-    tool = os.system("apt-get install hydra-gtk")
+    tool = os.system("apk add hydra-gtk")
 elif X == "18":
-    tool = os.system("apt-get install ettercap")
-    tool = os.system("apt-get install ettercap-graphical")
+    tool = os.system("apk add ettercap")
+    tool = os.system("apk add ettercap-graphical")
 elif X == "19":
-    tool = os.system("apt-get install macchanger -y")
+    tool = os.system("apk add macchanger -y")
 elif X == "20":
-    tool = os.system("apt-get install dnschef")
+    tool = os.system("apk add dnschef")
 elif X == "21":
-    tool = os.system("apt-get install autopsy")
+    tool = os.system("apk add autopsy")
 elif X == "22":
-    tool = os.system("apt-get install pipal")
+    tool = os.system("apk add pipal")
 elif X == "23":
-    tool = os.system("apt-get --assume-yes install git make gcc")
+    tool = os.system("apk add git make gcc")
     tool = os.system("git clone https://github.com/robertdavidgraham/masscan")
     tool = os.system("cd masscan")
     tool = os.system("make install")
 elif X == "24":
-    tool = os.system("apt-get install whatweb -y")
+    tool = os.system("apk add whatweb -y")
 elif X == "25":
-    tool = os.system("apt-get install maltego-teeth")
+    tool = os.system("apk add maltego-teeth")
 elif X == "26":
-    tool = os.system("apt-get install armitage")
+    tool = os.system("apk add armitage")
 elif X == "27":
-    tool = os.system("apt-get install arping")
+    tool = os.system("apk add arping")
 elif X == "28":
-    tool = os.system("apt-get install proxychains -y")
+    tool = os.system("apk add proxychains -y")
 elif X == "29":
-    tool = os.system("apt-get install tor torbrowser-launcher")
+    tool = os.system("apk add tor torbrowser-launcher")
 elif X == "0":
     tool = os.system("exit")
     time.sleep(1)
